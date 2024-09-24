@@ -9,6 +9,6 @@
   "author": "Lisandro Fernando",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.2.0"
+    "cypress": "^13.10.0"
   }
 }

@@ -1,11 +1,11 @@
 /// <reference types="Cypress"/>
 
-describe('spec.cy.js', function(){
-    it('should visit', function(){
-        cy.visit("https://saucedemo.com/")
-        cy.get("#user-name').type('standard_user")
-        cy.get("#password').type('secret_sauce")
-        cy.get("#login-button").click()
-        cy.get("span.title").contains("Products")
+describe('Ecomerce Suite', function(){
+    it('Login Ecomerce Site', async function(){
+        await cy.visit("www.google.com")
+         await cy.get("#APjFqb").type("www.saucedemo.com")
+         await cy.get("[value='Buscar con Google']").click()
+        // await cy.get("#login-button").click()
+        // await cy.get("span.title").contains("Products")
     })
 })
